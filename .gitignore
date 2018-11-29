@@ -1,0 +1,3 @@
+# Keeping it simple at the moment. I have to store pdf files as a part of the homework,
+# and do not want these tracked by git.
+*.pdf
