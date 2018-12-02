@@ -33,6 +33,50 @@ li {
     height: 600px;
 }
 
+/* Header */
+
+header {
+    background-image: url(../img/hero.png);
+    background-color: #ececec;
+    height: 800px;
+    background-size: cover;
+}
+
+header h1 {
+    font-family: 'Lora', serif;
+    font-size: 30px;
+    color: #bbc085;
+    padding: 65px 0 65px 25px;
+}
+
+nav {
+    float: right;
+    padding: 75px 25px;
+}
+
+nav ul li a {
+    text-transform: uppercase;
+    text-decoration: none;
+    font-size: 18px;
+    line-height: 30px;
+    color: #a2a2a2;
+    padding-left: 80px;
+}
+
+header h2 {
+    width: 1000px;
+    clear: both;
+    font-family: 'Lora', serif;
+    font-size: 72px;
+    line-height: 80px;
+    color: #9b9b9b;
+    padding: 20px 0 20px 25px;
+}
+
+header h2 span {
+    color: #2b2b2b;
+}
+
 /* About */
 
 #about .full-width {
