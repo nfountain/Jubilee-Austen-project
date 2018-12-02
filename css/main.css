@@ -27,3 +27,29 @@ li {
     float: left;
 }
 
+/* Sections */
+
+#about, #work, #contact {
+    height: 600px;
+}
+
+/* About */
+
+#about .full-width {
+    padding: 80px 0;
+}
+
+#about h2 {
+    font-family: 'Lora', serif;
+    font-size: 36px;
+    padding-left: 50px;
+}
+
+#about p {
+    font-size: 21px;
+    line-height: 40px;
+    color: #7f7f7f;
+    padding-left: 50px;
+    padding-right: 50px;
+}
+
