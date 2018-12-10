@@ -181,3 +181,7 @@ header h2 span {
     font-size: 32px;
     padding-right: 48px;
 }
+
+#contact ul li a img {
+    padding-left: 64px;
+}
