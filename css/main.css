@@ -1,3 +1,7 @@
+/* LEFT TODO: 
+*** make images responsive (background, icons, and contact image)
+*** make fonts responsive
+
 /* Styling for main blocks/containers */
 
 body {
@@ -13,18 +17,20 @@ li {
 }
 
 .full-width {
-    width: 1200px;
+    width: 100%;
     margin: 0 auto;
     overflow: auto;
 }
 
 .half-width {
-    width: 600px;
+    width: 50%;
+    min-width: 300px;
     float: left;
 }
 
 .third-width {
-    width: 400px;
+    width: 33%;
+    min-width: 200px;
     float: left;
 }
 
@@ -40,7 +46,7 @@ header {
     background-image: url(../img/hero.png);
     background-color: #ececec;
     height: 800px;
-    background-size: cover;
+    background-size: cover;/* can change to contain and background-repeat: no-repeat; */
 }
 
 header h1 {
@@ -75,15 +81,12 @@ a:visited {
     color: #a2a2a2;
 }
 
-a.return-menu {
+a[href="#menu"] {
     clear: both;
-    text-align: right;
-    padding: 0;
-    margin: 0;
+    float: right;
     font-size: 21px;
     line-height: 40px;
     color: #7f7f7f;
-
 }
 
 header h2 {
