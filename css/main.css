@@ -195,7 +195,7 @@ header h2 span {
     margin: 40px 0 0 0;
 }
 
-#contact a {
+#contact a[href^="mail"] {
     font-size: 28px;
     line-height: 44px;
     font-weight: bold;
