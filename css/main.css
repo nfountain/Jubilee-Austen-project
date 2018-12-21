@@ -1,6 +1,7 @@
 /* LEFT TODO: 
 *** make images responsive (background, icons, and contact image)
 *** make fonts responsive
+*** Change img tags to figure tags (in both css & html) to increase accessibility?
 
 /* Styling for main blocks/containers */
 
@@ -43,10 +44,14 @@ li {
 /* Header */
 
 header {
-    background-image: url(../img/hero.png);
-    background-color: #ececec;
     height: 800px;
-    background-size: cover;/* can change to contain and background-repeat: no-repeat; */
+    background: #ececec url(../img/hero.png) 100% 100% no-repeat;
+    /*background-color: #ececec;
+    background-image: url(../img/hero.png);
+    background-position: 100% 100%;
+    background-repeat: no-repeat;*/
+    background-size: contain;
+    /*used to be background-size cover;*/
 }
 
 header h1 {
